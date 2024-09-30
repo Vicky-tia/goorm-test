@@ -1,77 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NETFLIX</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Spread Sheet APP</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="/">
-                    <img id="logo" src="./main-img/netflix-logo.png" alt="netflix-logo" />
-                </a>
-            </div>
-            <div class="avatar">
-                <a href="/">
-                    <img id="avatar" src="./main-img/netflix-avatar.png" alt="netflix-avatar" />
-                </a>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="banner">
-            <div class="banner_contents">
-                <h1 class="banner_title">Money Heist</h1>
-                <div class="banner_btn">
-                    <button>Play</button>
-                    <button>My List</button>
-                </div>
-                <p class="banner_description">
-                    To carry out the biggest heist in history, a mysterious man
-                    <br />
-                    called The Professor recruits a band of eight robbers who
-                    <br />
-                    have a single characteristic: n...
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <h2>NETFLIX ORIGINALS</h2>
-            <div class="row_posters">
-                <img src="./main-img/large-movie1.jpg" alt="1" class="row_poster row_posterLarge" />
-                <img src="./main-img/large-movie2.jpg" alt="2" class="row_poster row_posterLarge" />
-                <img src="./main-img/large-movie3.jpg" alt="3" class="row_poster row_posterLarge" />
-                <img src="./main-img/large-movie4.jpg" alt="4" class="row_poster row_posterLarge" />
-                <img src="./main-img/large-movie5.jpg" alt="5" class="row_poster row_posterLarge" />
-                <img src="./main-img/large-movie6.jpg" alt="6" class="row_poster row_posterLarge" />
-                <img src="./main-img/large-movie7.jpg" alt="7" class="row_poster row_posterLarge" />
-                <img src="./main-img/large-movie8.jpg" alt="8" class="row_poster row_posterLarge" />
-
-            </div>
-        </div>
-        <div class="row">
-            <h2>Trending Now</h2>
-            <div class="row_posters">
-                <img src="./main-img/small-movie1.jpg" alt="1." class="row_poster row_posterSmall" />
-                <img src="./main-img/small-movie2.jpg" alt="2." class="row_poster row_posterSmall" />
-                <img src="./main-img/small-movie3.jpg" alt="3." class="row_poster row_posterSmall" />
-                <img src="./main-img/small-movie4.jpg" alt="4." class="row_poster row_posterSmall" />
-                <img src="./main-img/small-movie5.jpg" alt="5." class="row_poster row_posterSmall" />
-                <img src="./main-img/small-movie6.jpg" alt="6." class="row_poster row_posterSmall" />
-                <img src="./main-img/small-movie7.jpg" alt="7." class="row_poster row_posterSmall" />
-                <img src="./main-img/movie-1.jpeg" alt="8." class="row_poster row_posterSmall" />
-            </div>
-        </div>
-
-    </main>
-    <footer>
-        footer
-    </footer>
+    <button id="export-btn">Export Speadsheet</button>
+    <div>Cell: <span id="cell-status"></span></div>
+    <div id="spreadsheet-container"></div>
+    <script src="script.js"></script>
 </body>
-
 </html>
