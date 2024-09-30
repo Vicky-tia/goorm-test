@@ -1,0 +1,33 @@
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(224, 213, 213);
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 55%;
+}
+.item-container:hover {
+    transform: scale(1.02);
+}
+
+.amount {
+    font-weight: 300;
+}
+
+.charge {
+    margin-right: 2rem;    
+}
+
+.item-btn {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }

@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+    background-color: white !important;
+}
+
+.form-group {
+    padding: 1rem 0.75rem;
+    flex: 1;
+}
+
+label {
+    display: block;
+    color: rgb(33, 6, 102);
+    font-size: 1rem;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(33, 6, 102);
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
